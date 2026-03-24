@@ -1,0 +1,35 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+ENV/
+
+# ==========================
+# Jupyter Notebooks
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# Datos
+# ==========================
+# Carpeta raw / externa de cada caso
+case1_telecom/data/raw/
+case1_telecom/data/external/
+case2_ab_testing/data/raw/
+case2_ab_testing/data/external/
+case3_sql/data/raw/
+case3_sql/data/external/
+
+# ==========================
+# Logs y outputs
+# ==========================
+*.log
+*.tmp
+*.out
