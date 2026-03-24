@@ -11,6 +11,7 @@ Prueba A/B: para validar el desempeño de un experimento, usando  embudos de con
 ## Case 3 - SQL
 Análisis de una base de datos con múltiples tablas mediante consultas SQL.
 
+```
 # Requisitos y ejecución
 # Para poder correr los notebooks de este proyecto, sigue estos pasos:
 
@@ -32,3 +33,4 @@ pip install pandas numpy matplotlib seaborn scipy sqlalchemy
 
 # Autor
 # Albert Mendoza
+```
