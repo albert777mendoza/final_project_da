@@ -3,7 +3,7 @@
 El proyecto final se compone de 3 casos de uso **distintos e independientes**, cada uno con sus propios objetivos a cumplir, por lo cual resulta importante mencionar que, sus datos **no están relacionados entre sí**.
 
 ## Case 1 - Telecom
-Diagnóstico y análisis de datos de telecomunicaciones para la toma de decisiones.
+Diagnóstico y análisis de datos relacionados con el nivel de gestión de los operadores de una empresa de telecomunicaciones, para toma de decisiones.
 
 ## Case 2 - A/B Testing
 Prueba A/B: para validar el desempeño de un experimento, usando  embudos de conversión y pruebas de hipótesis.
