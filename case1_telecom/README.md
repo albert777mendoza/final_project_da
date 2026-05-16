@@ -13,8 +13,8 @@ Optimizar bases de datos y horarios de contacto.
 Implementar dashboards de monitoreo.
 Fortalecer procesos de capacitación y gestión de tiempos.
 Rediseñar procesos internos y mejorar el sistema automático.
-👉 Explorar notebook completo
-👉 Ver storytelling completo
+👉 [Explorar notebook completo](notebooks/telecom_case.ipynb)  
+👉 [Ver storytelling completo](storytelling.md)
 
 English
 Objective
@@ -30,5 +30,5 @@ Optimize databases and contact schedules.
 Implement monitoring dashboards.
 Strengthen training and call time management.
 Redesign internal processes and improve the automated system.
-👉 Explore full notebook
-👉 View full storytelling
+👉 [Explorar notebook completo](notebooks/telecom_case.ipynb)  
+👉 [Ver storytelling completo](storytelling.md)
