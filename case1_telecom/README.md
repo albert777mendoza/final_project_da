@@ -30,5 +30,5 @@ Optimize databases and contact schedules.
 Implement monitoring dashboards.
 Strengthen training and call time management.
 Redesign internal processes and improve the automated system.
-👉 [Explorar notebook completo](notebooks/telecom_case.ipynb)  
-👉 [Ver storytelling completo](storytelling.md)
+👉 [Explore full notebook](notebooks/telecom_case.ipynb)  
+👉 [See full storytelling](storytelling.md)
