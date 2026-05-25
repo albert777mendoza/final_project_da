@@ -2,18 +2,20 @@
 
 ## 📌 Ficha Ejecutiva
 
-- **Problema de negocio:** Evaluar si un nuevo sistema de recomendaciones en una tienda online mejora la tasa de conversión frente al sistema anterior.
-- **Dataset utilizado:** Datos de comportamiento de usuarios en una prueba A/B, incluyendo eventos de navegación, conversiones y métricas por grupo (A y B).
-- **Herramientas:** Python, Pandas, Seaborn, SciPy, Matplotlib.
-- **Resultado principal:** El grupo B no mostró mejora estadísticamente significativa en la tasa de conversión ni en ingresos frente al grupo de control (A).
+- **Problema de negocio:** Evaluar si un nuevo sistema de recomendaciones en una tienda online mejora la tasa de conversión frente al sistema anterior.  
+- **Dataset utilizado:** Datos de comportamiento de usuarios en una prueba A/B, incluyendo eventos de navegación, conversiones y métricas por grupo (A y B).  
+- **Herramientas:** Python, Pandas, Seaborn, SciPy, Matplotlib.  
+- **Resultado principal:** El grupo B no mostró mejora estadísticamente significativa en la tasa de conversión ni en ingresos frente al grupo de control (A).  
 - **Recomendación final:** No implementar el cambio actual. Rediseñar el experimento corrigiendo desbalances entre grupos y posibles sesgos en la asignación.
 
 ---
 
 ## 🔗 Recursos
 
-[📖 README](https://github.com/albert777mendoza/final_project_da/tree/main/case2_ab-testing)  
-[📓 Notebook](https://github.com/albert777mendoza/final_project_da/blob/main/case2_ab_testing/notebooks/ab_testing.ipynb)
+<div class="project-links">
+  <a href="https://github.com/albert777mendoza/final_project_da/tree/main/case2_ab-testing" class="btn" target="_blank">📖 README</a>
+  <a href="https://github.com/albert777mendoza/final_project_da/blob/main/case2_ab_testing/notebooks/ab_testing.ipynb" class="btn" target="_blank">📓 Notebook</a>
+</div>
 
 ---
 
@@ -42,9 +44,9 @@ Python | Pandas | Seaborn | SciPy | Matplotlib
 
 ## ❓ Preguntas Clave
 
-1. ¿El cambio implementado en el grupo B genera mejora significativa en el embudo?  
-2. ¿Es recomendable la implementación del cambio inicialmente sugerido a la tienda online?  
-3. ¿La prueba estadística confirma que la diferencia es significativa?
+- ¿El cambio implementado en el grupo B genera mejora significativa en el embudo?  
+- ¿Es recomendable la implementación del cambio inicialmente sugerido a la tienda online?  
+- ¿La prueba estadística confirma que la diferencia es significativa?
 
 ---
 
@@ -59,17 +61,15 @@ Python | Pandas | Seaborn | SciPy | Matplotlib
 
 ## 📸 Visualizaciones destacadas
 
-- **Funnel comparativo:** muestra cómo los usuarios avanzan en cada etapa del proceso de conversión.
-- 
+**Funnel comparativo:** muestra cómo los usuarios avanzan en cada etapa del proceso de conversión.  
 ![Funnel Comparativo](https://albert777mendoza.github.io/assets/img/funnel-comparativo.png)
 
-- **Eventos por día:** evolución temporal de la actividad de los usuarios, detectando tendencias y picos de interacción.
-- 
+**Eventos por día:** evolución temporal de la actividad de los usuarios, detectando tendencias y picos de interacción.  
 ![Eventos por día](https://albert777mendoza.github.io/assets/img/eventos-dia.png)
 
-- **Resumen de la prueba:** compara usuarios, conversiones e ingresos de ambos grupos.
-- 
+**Resumen de la prueba:** compara usuarios, conversiones e ingresos de ambos grupos.  
 ![Resumen de la prueba](https://albert777mendoza.github.io/assets/img/resumen-prueba.png)
+
 ---
 
 ## 📝 Conclusiones y Recomendaciones
@@ -88,5 +88,7 @@ git clone https://github.com/albert777mendoza/final_project_da.git
 pip install -r requirements.txt
 jupyter notebook
 
+## 👤 Autor
 
-
+Albert Mendoza
+Data Analyst Jr. | Python | SQL | Tableau
