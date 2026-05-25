@@ -88,8 +88,5 @@ git clone https://github.com/albert777mendoza/final_project_da.git
 pip install -r requirements.txt
 jupyter notebook
 
-👉 [Explorar notebook completo](notebooks/ab_testing.ipynb)  
-👉 [Ver storytelling completo](storytelling.md)
-
 
 
