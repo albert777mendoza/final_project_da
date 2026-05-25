@@ -60,12 +60,15 @@ Python | Pandas | Seaborn | SciPy | Matplotlib
 ## 📸 Visualizaciones destacadas
 
 - **Funnel comparativo:** muestra cómo los usuarios avanzan en cada etapa del proceso de conversión.
+- 
 ![Funnel Comparativo](https://albert777mendoza.github.io/assets/img/funnel-comparativo.png)
 
 - **Eventos por día:** evolución temporal de la actividad de los usuarios, detectando tendencias y picos de interacción.
+- 
 ![Eventos por día](https://albert777mendoza.github.io/assets/img/eventos-dia.png)
 
 - **Resumen de la prueba:** compara usuarios, conversiones e ingresos de ambos grupos.
+- 
 ![Resumen de la prueba](https://albert777mendoza.github.io/assets/img/resumen-prueba.png)
 ---
 
