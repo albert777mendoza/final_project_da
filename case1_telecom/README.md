@@ -75,7 +75,14 @@ El sistema automático sin operador presentó aproximadamente:
 
 ## 📸 Visualizaciones Destacadas
 ### Dashboard Operativo
+![Dashboard]- 99% de llamadas perdidas.
+
+## 📸 Visualizaciones Destacadas
+### Dashboard Operativo
 ![Dashboard](https://public.tableau.com/views/Case1_TelecomFinalProyectD_A/Hoja1?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+Dashboard interactivo desarrollado en Tableau para monitorear:
+
 
 Dashboard interactivo desarrollado en Tableau para monitorear:
 
