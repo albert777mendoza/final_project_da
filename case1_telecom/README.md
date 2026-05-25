@@ -1,4 +1,4 @@
-![Dashboard Preview](images/dashboard.png)
+![Dashboard Preview](albert777mendoza.github.io/assets/img/dashboard.png)
 
 # Caso 1 – Análisis de Telecomunicaciones
 
@@ -75,7 +75,7 @@ El sistema automático sin operador presentó aproximadamente:
 
 ## 📸 Visualizaciones Destacadas
 ### Dashboard Operativo
-![Dashboard](images/dashboard.png)
+![Dashboard](https://public.tableau.com/views/Case1_TelecomFinalProyectD_A/Hoja1?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 Dashboard interactivo desarrollado en Tableau para monitorear:
 
@@ -85,7 +85,8 @@ duración promedio,
 operadores críticos.
 
 ### Correlación entre variables operativas
-![Correlation](images/correlation.png)
+![Correlation](albert777mendoza.github.io/assets/img/heatmap-correlacion.png)
+
 
 La matriz de correlación permitió identificar relaciones relevantes entre volumen de llamadas, duración y pérdida operativa.  
 
