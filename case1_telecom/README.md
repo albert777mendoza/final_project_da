@@ -79,17 +79,14 @@ El sistema automático sin operador presentó aproximadamente:
 
 ## 📸 Visualizaciones Destacadas
 ### Dashboard Operativo
-![Dashboard](https://public.tableau.com/views/Case1_TelecomFinalProyectD_A/Hoja1?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+![Dashboard](https://public.tableau.com/views/Case1_TelecomFinalProyectD_A/Hoja1?:showVizHome=no&:embed=y&:language=es-ES)
 
 Dashboard interactivo desarrollado en Tableau para monitorear:
 
-
-Dashboard interactivo desarrollado en Tableau para monitorear:
-
-llamadas perdidas,
-desempeño operativo,
-duración promedio,
-operadores críticos.
+- llamadas perdidas,
+- desempeño operativo,
+- duración promedio,
+- operadores críticos.
 
 ### Correlación entre variables operativas
 ![Correlation](https://albert777mendoza.github.io/assets/img/heatmap-correlacion.png)
