@@ -1,4 +1,4 @@
-[![CallMeMaybe Dashboard](https://albert777mendoza.github.io/assets/img/dashboard.png)](https://public.tableau.com/views/Case1_TelecomFinalProyectD_A)
+[![CallMeMaybe Dashboard](https://albert777mendoza.github.io/assets/img/dashboard.png)](https://public.tableau.com/views/Case1_TelecomFinalProyectD_A/Hoja1?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 # Caso 1 – Análisis de Telecomunicaciones
 
