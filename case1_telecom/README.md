@@ -1,4 +1,4 @@
-![Dashboard Preview](albert777mendoza.github.io/assets/img/dashboard.png)
+![Dashboard Preview]((https://albert777mendoza.github.io/assets/img/dashboard.png)
 
 # Caso 1 – Análisis de Telecomunicaciones
 
@@ -85,10 +85,12 @@ duración promedio,
 operadores críticos.
 
 ### Correlación entre variables operativas
-![Correlation](albert777mendoza.github.io/assets/img/heatmap-correlacion.png)
-
+![Correlation](https://albert777mendoza.github.io/assets/img/heatmap-correlacion.png)
 
 La matriz de correlación permitió identificar relaciones relevantes entre volumen de llamadas, duración y pérdida operativa.  
+
+### Distribución y Eficiencia
+![Distribución](https://albert777mendoza.github.io/assets/img/distribucion-eficiencia.png)
 
 ### Estrategias Recomendadas
 - Optimizar bases de datos y horarios de contacto.  
