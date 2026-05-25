@@ -79,8 +79,10 @@ El sistema automático sin operador presentó aproximadamente:
 
 ## 📸 Visualizaciones Destacadas
 ### Dashboard Operativo
-![Dashboard](https://public.tableau.com/views/Case1_TelecomFinalProyectD_A/Hoja1?:showVizHome=no&:embed=y&:language=es-ES)
 
+[![CallMeMaybe Dashboard](https://albert777mendoza.github.io/assets/img/dashboard.png)](
+https://public.tableau.com/views/Case1_TelecomFinalProyectD_A/Hoja1
+)
 Dashboard interactivo desarrollado en Tableau para monitorear:
 
 - llamadas perdidas,
