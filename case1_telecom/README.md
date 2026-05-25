@@ -1,4 +1,4 @@
-![Dashboard Preview]((https://albert777mendoza.github.io/assets/img/dashboard.png)
+![Dashboard Preview](https://albert777mendoza.github.io/assets/img/dashboard.png)
 
 # Caso 1 – Análisis de Telecomunicaciones
 
