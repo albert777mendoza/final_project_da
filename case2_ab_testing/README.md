@@ -1,35 +1,88 @@
-# Caso 2 – A/B Testing
+# A/B Testing – Evalúa efectividad de un sistema de recomendaciones en tienda online
 
-## Español
-### Objetivo
-Evaluar si el sistema de recomendaciones recientemente implementado en la tienda online generó mejoras significativas en la tasa de conversión, comparando un grupo de control (A) y un grupo de prueba (B).
+## 📌 Ficha Ejecutiva
 
-### Hallazgos Clave
-- El grupo B no logró superar al grupo A en la conversión total (A: 51,8% vs B: 50,6%).  
-- La diferencia observada (-1,1%) no fue estadísticamente significativa (p = 0.3024).  
-- B mostró ligera ventaja en la etapa **product_page → cart**, pero perdió en la etapa crítica **cart → purchase**.  
-- El número de participantes fue menor al esperado y hubo desbalance entre grupos, limitando la confiabilidad del experimento.  
+- **Problema de negocio:** Evaluar si un nuevo sistema de recomendaciones en una tienda online mejora la tasa de conversión frente al sistema anterior.
+- **Dataset utilizado:** Datos de comportamiento de usuarios en una prueba A/B, incluyendo eventos de navegación, conversiones y métricas por grupo (A y B).
+- **Herramientas:** Python, Pandas, Seaborn, SciPy, Matplotlib.
+- **Resultado principal:** El grupo B no mostró mejora estadísticamente significativa en la tasa de conversión ni en ingresos frente al grupo de control (A).
+- **Recomendación final:** No implementar el cambio actual. Rediseñar el experimento corrigiendo desbalances entre grupos y posibles sesgos en la asignación.
 
-### Conclusión y Recomendación
-El cambio probado en el grupo B **no aportó valor significativo**. Se recomienda **no implementar** el nuevo sistema de recomendaciones hasta realizar un nuevo experimento con mejor diseño que corrija los desbalances y sesgos detectados.  
+---
+
+## 🔗 Recursos
+
+[📖 README](https://github.com/albert777mendoza/final_project_da/tree/main/case2_ab-testing)  
+[📓 Notebook](https://github.com/albert777mendoza/final_project_da/blob/main/case2_ab_testing/notebooks/ab_testing.ipynb)
+
+---
+
+## 🎯 Objetivo
+
+Evaluar si el sistema de recomendaciones recientemente implementado en la tienda online generó mejoras significativas en la tasa de conversión, comparando los resultados de un grupo de control y un grupo de prueba.
+
+---
+
+## 🛠 Herramientas y Tecnologías
+
+Python | Pandas | Seaborn | SciPy | Matplotlib
+
+---
+
+## ⚙ Procesos desarrollados
+
+- Limpieza de datos  
+- Transformación de datos  
+- Análisis Exploratorio de Datos (EDA)  
+- Construcción de embudo de conversión  
+- Ejecución de prueba A/B  
+- Evaluación de resultados
+
+---
+
+## ❓ Preguntas Clave
+
+1. ¿El cambio implementado en el grupo B genera mejora significativa en el embudo?  
+2. ¿Es recomendable la implementación del cambio inicialmente sugerido a la tienda online?  
+3. ¿La prueba estadística confirma que la diferencia es significativa?
+
+---
+
+## 📊 Metodología
+
+1. **Preprocesamiento de datos:** limpieza, integración y estandarización, verificando inconsistencias, duplicados y valores faltantes.  
+2. **Análisis Exploratorio de Datos (EDA):** comparación de tamaños de muestra, distribución de eventos por usuario y por día. Identificación de posibles anomalías.  
+3. **Construcción del embudo de conversión:** se detectó desbalance inicial entre grupos (A tenía más usuarios en todas las etapas que B).  
+4. **Ejecución de la prueba A/B:** B muestra ligera mejora en la etapa product_page → product_cart, pero pierde ventaja en la etapa final. La diferencia general no es significativa estadísticamente.
+
+---
+
+## 📸 Visualizaciones destacadas
+
+- **Funnel comparativo:** muestra cómo los usuarios avanzan en cada etapa del proceso de conversión.  
+- **Eventos por día:** evolución temporal de la actividad de los usuarios, detectando tendencias y picos de interacción.  
+- **Resumen de la prueba:** compara usuarios, conversiones e ingresos de ambos grupos.
+
+---
+
+## 📝 Conclusiones y Recomendaciones
+
+- El grupo B no logra superar al grupo A en el rendimiento del funnel, mostrando solo ligera mejora inicial.  
+- El cambio implementado en B no genera mejora significativa. Diferencia observada mínima (-1,1%).  
+- La prueba estadística confirma que la diferencia no es significativa (p-value = 0.3024).  
+- **Recomendación:** NO implementar el cambio hasta realizar un nuevo experimento con mejor diseño, corrigiendo desbalances y sesgos.
+
+---
+
+## 🚀 Cómo Ejecutar el Proyecto
+
+```bash
+git clone https://github.com/albert777mendoza/final_project_da.git
+pip install -r requirements.txt
+jupyter notebook
 
 👉 [Explorar notebook completo](notebooks/ab_testing.ipynb)  
 👉 [Ver storytelling completo](storytelling.md)
 
----
 
-## English
-### Objective
-Evaluate whether the newly implemented recommendation system improved conversion rates by comparing a control group (A) and a test group (B).
 
-### Key Findings
-- Group B did not outperform Group A in total conversion (A: 51.8% vs B: 50.6%).  
-- The observed difference (-1.1%) was not statistically significant (p = 0.3024).  
-- B showed a slight advantage in **product_page → cart**, but lost in the critical **cart → purchase** stage.  
-- The number of participants was lower than expected and groups were unbalanced, limiting reliability.  
-
-### Conclusion and Recommendation
-The change tested in Group B **did not provide significant value**. It is recommended **not to implement** the new recommendation system until a new experiment is conducted with improved design to correct group imbalances and biases.  
-
-👉 [Explore full notebook](notebooks/ab_testing.ipynb)  
-👉 [View full storytelling](storytelling.md)
