@@ -1,4 +1,4 @@
-![Dashboard Preview](https://albert777mendoza.github.io/assets/img/dashboard.png)
+[![CallMeMaybe Dashboard](https://albert777mendoza.github.io/assets/img/dashboard.png)](https://public.tableau.com/views/Case1_TelecomFinalProyectD_A)
 
 # Caso 1 – Análisis de Telecomunicaciones
 
