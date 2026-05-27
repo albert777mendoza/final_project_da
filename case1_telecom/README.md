@@ -1,35 +1,44 @@
-[![CallMeMaybe Dashboard](https://albert777mendoza.github.io/assets/img/dashboard.png)](https://public.tableau.com/views/Case1_TelecomFinalProyectD_A/Hoja1?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[![CallMeMaybe Dashboard](https://albert777mendoza.github.io/assets/img/dashboard.png)](https://public.tableau.com/views/Case1_TelecomFinalProyectD_A/Hoja1?:language=es-ES&:display_count=n&:origin=viz_share_link)
 
-# Caso 1 – Análisis de Telecomunicaciones
+# 📞 Caso 1 – Análisis de Telecomunicaciones
 
-### Descripción del Proyecto
+## 📌 Descripción del Proyecto
 
-Proyecto de análisis de datos enfocado en identificar operadores ineficaces del servicio de telefonía virtual CallMeMaybe mediante análisis exploratorio, métricas operativas y validación estadística.
+Proyecto de análisis de datos enfocado en identificar operadores ineficaces del servicio de telefonía virtual **CallMeMaybe** mediante análisis exploratorio, métricas operativas y validación estadística.
 
-### Objetivo
-Identificar operadores ineficaces del servicio de telefonía virtual **CallMeMaybe** mediante análisis exploratorio y métricas de eficiencia.
+---
 
-## 📂 Dataset
-### Fuente
+# 🎯 Objetivo
 
+Identificar operadores ineficaces del servicio de telefonía virtual **CallMeMaybe** mediante análisis exploratorio y métricas de eficiencia operacional.
+
+---
+
+# 📂 Dataset
+
+## Fuente
 Registros operativos del servicio de telefonía virtual CallMeMaybe.
 
-### Variables principales
-- operator_id
-- call_duration
-- missed_call
-- direction
-- internal
-- date
+## Variables principales
+- `operator_id`
+- `call_duration`
+- `missed_call`
+- `direction`
+- `internal`
+- `date`
 
-### Información analizada
+## Información analizada
 - llamadas entrantes,
 - llamadas salientes,
 - llamadas internas,
 - duración de llamadas,
+- tiempos de espera,
 - desempeño operativo por operador.
 
-## 🛠 Herramientas y Tecnologías
+---
+
+# 🛠 Herramientas y Tecnologías
+
 - Python
 - Pandas
 - Seaborn
@@ -38,108 +47,157 @@ Registros operativos del servicio de telefonía virtual CallMeMaybe.
 - Tableau
 - Jupyter Notebook
 
-### Metodología
+---
+
+# ⚙️ Metodología
+
 - Limpieza y transformación de datos
 - Análisis Exploratorio de Datos (EDA)
 - Segmentación de operadores
-- Sistema de semaforización
+- Sistema de scoring y semaforización
 - Validación estadística
 - Construcción de dashboard operativo
 
-## Hallazgos Clave
-📉 Ineficiencia en llamadas salientes
+---
 
-Las llamadas salientes presentan mayor tasa de pérdida:
+# 🔍 Hallazgos Clave
 
-- Salientes: 52.56%
-- Entrantes: 41.46%
+## 📉 Ineficiencia en llamadas salientes
 
-### ⏱ Baja efectividad operativa
+Las llamadas salientes presentaron una tasa significativamente mayor de pérdida frente a las llamadas entrantes:
+
+- Salientes: **52.56%**
+- Entrantes: **41.46%**
+
+La diferencia fue validada mediante prueba estadística.
+
+### Visualización
+![Distribución llamadas](https://albert777mendoza.github.io/assets/img/outbound_calls.png)
+
+---
+
+## ⏱ Baja efectividad operativa
 
 La mediana de duración de llamadas salientes fue:
-0 minutos
 
-Esto evidencia baja capacidad de contacto efectivo.
+- **0 minutos**
 
-### 🔄 Problemas en llamadas internas
+Esto evidenció baja capacidad de contacto efectivo y posibles fallas estructurales en la gestión de llamadas salientes.
 
-Las llamadas internas presentan alta pérdida incluso con operador:
+### Visualización
+![Duración llamadas](https://albert777mendoza.github.io/assets/img/call_duration.png)
 
-- 45.49%
+---
 
-### 🤖 Sistema automático ineficiente
+## 🔄 Problemas en llamadas internas
+
+Las llamadas internas presentaron alta pérdida incluso con operador:
+
+- **45.49%**
+
+Lo anterior sugiere posibles problemas de coordinación operativa interna.
+
+### Visualización
+![Llamadas internas](https://albert777mendoza.github.io/assets/img/internal_calls.png)
+
+---
+
+## 🤖 Sistema automático ineficiente
 
 El sistema automático sin operador presentó aproximadamente:
 
-- 99% de llamadas perdidas.
+- **99% de llamadas perdidas**
 
-## 📸 Visualizaciones Destacadas
-### Dashboard Operativo
-![Dashboard]- 99% de llamadas perdidas.
+Lo que evidenció una fuerte dependencia del operador humano dentro de la operación.
 
-## 📸 Visualizaciones Destacadas
-### Dashboard Operativo
+### Visualización
+![Sistema automático](https://albert777mendoza.github.io/assets/img/no_operator.png)
 
-[![CallMeMaybe Dashboard](https://albert777mendoza.github.io/assets/img/dashboard.png)](
-https://public.tableau.com/views/Case1_TelecomFinalProyectD_A/Hoja1
-)
+---
+
+# 📊 Dashboard Operativo
+
 Dashboard interactivo desarrollado en Tableau para monitorear:
 
 - llamadas perdidas,
 - desempeño operativo,
 - duración promedio,
-- operadores críticos.
+- operadores críticos,
+- eficiencia operacional.
 
-### Correlación entre variables operativas
-![Correlation](https://albert777mendoza.github.io/assets/img/heatmap-correlacion.png)
+[![CallMeMaybe Dashboard](https://albert777mendoza.github.io/assets/img/dashboard.png)](https://public.tableau.com/views/Case1_TelecomFinalProyectD_A/Hoja1?:language=es-ES&:display_count=n&:origin=viz_share_link)
 
-La matriz de correlación permitió identificar relaciones relevantes entre volumen de llamadas, duración y pérdida operativa.  
+🔗 **Ver Dashboard Tableau:**  
+https://public.tableau.com/views/Case1_TelecomFinalProyectD_A/Hoja1?:language=es-ES&:display_count=n&:origin=viz_share_link
 
-### Distribución y Eficiencia
-![Distribución](https://albert777mendoza.github.io/assets/img/distribucion-eficiencia.png)
+---
 
-### Estrategias Recomendadas
-- Optimizar bases de datos y horarios de contacto.  
-- Implementar dashboards de monitoreo.  
-- Fortalecer procesos de capacitación y gestión de tiempos.  
+# 📈 Correlación entre Variables Operativas
+
+![Correlation](https://albert777mendoza.github.io/assets/img/correlation.png)
+
+La matriz de correlación permitió identificar relaciones relevantes entre:
+
+- volumen de llamadas,
+- duración total,
+- llamadas perdidas,
+- score de ineficiencia operacional.
+
+---
+
+# 📊 Distribución y Eficiencia Operacional
+
+![Distribución](https://albert777mendoza.github.io/assets/img/distribucion.png)
+
+La segmentación operacional permitió identificar operadores críticos mediante un sistema de scoring y semaforización basado en métricas de productividad y eficiencia.
+
+---
+
+# 💡 Estrategias Recomendadas
+
+- Optimizar bases de datos y horarios de contacto.
+- Implementar dashboards de monitoreo operativo.
+- Fortalecer procesos de capacitación y gestión de tiempos.
 - Rediseñar procesos internos y mejorar el sistema automático.
 
- ## 🚀 Cómo Ejecutar el Proyecto
+---
 
-#### 1. Clonar repositorio
+# 🚀 Cómo Ejecutar el Proyecto
+
+## 1️⃣ Clonar repositorio
 
 ```bash
 git clone https://github.com/albert777mendoza/final_project_da.git
 ```
 
-#### 2. Instalar dependencias
+## 2️⃣ Instalar dependencias
 
 ```bash
 pip install -r requirements.txt
 ```
 
-#### 3. Ejecutar notebook
+## 3️⃣ Ejecutar notebook
 
 ```bash
 jupyter notebook
 ```
 
-## 🔗 Recursos
+---
 
-- 📓 Notebook completo
-👉 [Explorar notebook completo](notebooks/telecom_case.ipynb)  
+# 🔗 Recursos
 
-- 📊 Dashboard Tableau
-👉 [Ver Dashboard Tableau](https://public.tableau.com/views/Case1_TelecomFinalProyectD_A/Hoja1?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
+## 📓 Notebook completo
+👉 Explorar notebook completo
 
-- 📖 Storytelling del proyecto
-👉 [Ver storytelling completo](storytelling.md)
+## 📊 Dashboard Tableau
+👉 Ver Dashboard Tableau
 
+## 📖 Storytelling del proyecto
+👉 Ver storytelling completo
 
-### 👤 Autor
+---
 
-Albert Mendoza
+# 👤 Autor
+
+**Albert Mendoza**  
 Data Analyst Jr. | Python | SQL | Tableau
-
-
-
