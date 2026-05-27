@@ -127,7 +127,7 @@ Dashboard interactivo desarrollado en Tableau para monitorear:
 
 ## 🔥 Correlación entre variables operativas
 
-![Correlation](https://albert777mendoza.github.io/assets/img/correlation.png)
+![Correlation](https://albert777mendoza.github.io/assets/img/heatmap-correlacion.png)
 
 La matriz de correlación permitió identificar relaciones relevantes entre:
 
@@ -140,7 +140,7 @@ La matriz de correlación permitió identificar relaciones relevantes entre:
 
 ## 📈 Distribución y eficiencia operacional
 
-![Distribución](https://albert777mendoza.github.io/assets/img/distribution.png)
+![Distribución](https://albert777mendoza.github.io/assets/img/distribucion-eficiencia.png)
 
 Visualización utilizada para detectar:
 
