@@ -1,14 +1,36 @@
 # A/B Testing – Evalúa efectividad de un sistema de recomendaciones en tienda online
 
-## 📌 Ficha Ejecutiva
+## 📌 Descripción del Proyecto
 
-- **Problema de negocio:** Evaluar si un nuevo sistema de recomendaciones en una tienda online mejora la tasa de conversión frente al sistema anterior.  
-- **Dataset utilizado:** Datos de comportamiento de usuarios en una prueba A/B, incluyendo eventos de navegación, conversiones y métricas por grupo (A y B).  
-- **Herramientas:** Python, Pandas, Seaborn, SciPy, Matplotlib.  
-- **Resultado principal:** El grupo B no mostró mejora estadísticamente significativa en la tasa de conversión ni en ingresos frente al grupo de control (A).  
-- **Recomendación final:** No implementar el cambio actual. Rediseñar el experimento corrigiendo desbalances entre grupos y posibles sesgos en la asignación.
+Proyecto de análisis de datos enfocado en evaluar la efectividad de un nuevo sistema de recomendaciones implementado en una tienda online mediante una prueba A/B.
+
+El análisis incluyó exploración de datos, construcción de embudo de conversión, validación estadística y evaluación de impacto de negocio.
 
 ---
+# 🎯 Objetivo
+
+Evaluar si el nuevo sistema de recomendaciones mejora significativamente la tasa de conversión del funnel respecto al sistema anterior.
+
+---
+# 📂 Dataset
+
+## Fuente
+Datos operativos de una prueba A/B realizada en una tienda online.
+
+## Variables principales
+- user_id
+- event_name
+- group
+- details
+- dt
+
+---
+## 🛠 Herramientas y Tecnologías
+
+Python | Pandas | Seaborn | SciPy | Matplotlib
+
+---
+
 
 ## 🔗 Recursos
 
@@ -19,17 +41,9 @@
 
 ---
 
-## 🎯 Objetivo
-
-Evaluar si el sistema de recomendaciones recientemente implementado en la tienda online generó mejoras significativas en la tasa de conversión, comparando los resultados de un grupo de control y un grupo de prueba.
 
 ---
 
-## 🛠 Herramientas y Tecnologías
-
-Python | Pandas | Seaborn | SciPy | Matplotlib
-
----
 
 ## ⚙ Procesos desarrollados
 
@@ -71,6 +85,37 @@ Python | Pandas | Seaborn | SciPy | Matplotlib
 ![Resumen de la prueba](https://albert777mendoza.github.io/assets/img/resumen-prueba.png)
 
 ---
+
+---
+
+## ⚠️ Anomalías detectadas
+
+- Contaminación de usuarios entre grupos
+- Desbalance de muestras
+- Sesgo temporal
+- Desviaciones en asignación del experimento
+
+---
+
+# 💼 Impacto de negocio
+
+- Se evitó la implementación de un cambio sin evidencia estadística.
+- Se identificaron riesgos en el diseño experimental.
+- Se mejoró la capacidad de toma de decisiones basada en datos.
+- Se redujo el riesgo de decisiones sesgadas por mala estructura de experimento.
+
+---
+
+# 🚀 Próximos pasos
+
+- Repetir el experimento con diseño balanceado.
+- Incrementar tamaño de muestra.
+- Agregar métricas de negocio (revenue, retención, ticket promedio).
+- Mejorar control de asignación de usuarios.
+- Monitorear calidad del experimento en tiempo real.
+
+---
+
 
 ## 📝 Conclusiones y Recomendaciones
 
